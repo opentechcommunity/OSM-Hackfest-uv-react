@@ -1,0 +1,41 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  height: 7.44vh;
+}
+.logo h4 {
+  font-size: 28.45px;
+}
+.search {
+  margin-left: auto;
+}
+.search .searchbox {
+  border: 2px solid green;
+  border-radius: 6.45px;
+  width: 30vw;
+  padding: 7.45px 15px;
+}
+.search .button {
+  font-size: 15.45px;
+  padding: 4.5px;
+  margin: 0px 18.45px;
+  cursor: pointer;
+  border: none;
+  background-color: green;
+  border-radius: 6.45px;
+  color: white;
+}
+.search .button:hover {
+  transition: 0.4s;
+  background-color: green;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
+.line {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  width: 100%;
+  border-top: 1px solid grey;
+}
